@@ -3,10 +3,10 @@ h2 {
     padding-bottom: 4rem;
 }
 
-#intro {
+.intro {
     text-indent: 3em;
-    padding: 2rem;
-    font-size: 1.8rem;
+    padding: 4rem;
+    font-size: 5vw;
 }
 
 .blocktext img {
