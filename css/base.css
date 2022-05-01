@@ -1,0 +1,273 @@
+body {
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    color: #424952;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    text-decoration: none;
+    padding: 3rem; 
+    padding-bottom: 4rem;
+    color: #3f87a6;
+    text-align: center;
+}
+
+h3 {
+    color: dodgerblue;
+}
+.blocktext{
+    text-align:justify;
+}
+
+.blocktext li{
+  margin-left:2rem;
+}
+
+nav {
+    font-size: 1.3rem;
+
+}
+
+nav .nav-item {
+    margin: 1.3rem;
+}
+
+/* nav .dropdown-item {
+   font-size: 1.2rem;
+} */
+
+.menu .logo:hover {
+    background-color: whitesmoke;
+}
+
+.menu .icon {
+    background-color: whitesmoke;
+}
+
+.menu .subheader {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+    width: calc(100% / 3 - 2rem)
+}
+
+.menu .subheader a:hover {
+    color: black;
+    background-color: whitesmoke;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    border: solid black 1px;
+    padding: 0.5em;
+    border-radius: 5%;
+}
+
+.menu a:hover {
+    color: whitesmoke;
+    background-color: dodgerblue;
+}
+
+.menu .active {
+    color: whitesmoke;
+    background-color: dodgerblue;
+}
+
+ /* Dropdown Button */
+.dropbtn {
+  background-color: whitesmoke;
+  color: black;
+  font-size: 1.6rem;
+  padding: 0.65em;
+  margin: 0.3em;
+  border: none;
+  border-radius: 5%;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown-1 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: dodgerblue;}
+
+/* Show the dropdown menu on hover */
+.dropdown-1:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown-1:hover .dropbtn {
+    background-color: dodgerblue;
+    color: whitesmoke;
+}
+
+.dropdown-1 .active .activebtn{background-color: dodgerblue;}
+
+.dropdown-2 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content-2 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropbtn-2 {
+  background-color: whitesmoke;
+  color: black;
+  font-size: 1.6rem;
+  padding: 12px 16px;
+  margin: 0.3em;
+  border: none;
+  border-radius: 5%;
+}
+
+.dropdown-content-2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-2:hover .dropdown-content-2 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown-2:hover .dropbtn-2 {
+    background-color: dodgerblue;
+    color: whitesmoke;
+}
+
+.dropdown-2 .active .activebtn{background-color: dodgerblue;}
+
+
+#zone-footer {
+    display: flex;
+}
+
+
+.footer_menu {
+    width: 37rem;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  height: 250px;
+  perspective: 700px;
+  -webkit-perspective: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: arial, sans-serif;
+}
+
+.cube {
+  width: 100px;
+  height: 100px;
+  transform-style:preserve-3d;
+  transform:rotateY(35deg) rotatex(50deg);
+}
+
+.cube > div {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+.cube div:nth-child(1){
+  transform:translateZ(60px);
+  background:#237ad4;
+}
+
+.cube div:nth-child(2){
+  transform: rotateX(180deg) translateZ(60px);
+  background:#2070c3;
+}
+
+.cube div:nth-child(3){
+  transform: rotateY(-90deg) translateZ(60px);
+  background:#2e84dd;
+}
+
+.cube div:nth-child(4){
+  transform:rotateY(90deg) translateZ(60px);
+  background:#3f8edf;
+}
+
+.cube div:nth-child(5){
+  transform: rotateX(90deg) translateZ(60px);
+  background:#2070d3;
+}
+
+.cube div:nth-child(6){
+  transform:rotateX(-90deg) translateZ(60px);
+  background:#1d67b2;
+}
+
+footer {
+  text-align: center;
+  width: calc(100% - 4rem);
+  background-color: #237ad4;
+  color: #FFF;
+  position: absolute;
+  bottom: 0;
+  font-size: 12px;
+  padding: 0 2rem;
+}
+
+footer p {
+  font-family: arial, sans-serif;
+  padding: .8rem 0;
+  line-height: 20px;
+}
+
+footer a {
+  background-color: rgba(255, 255, 255, .6);
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #237ad4;
+}
+
+

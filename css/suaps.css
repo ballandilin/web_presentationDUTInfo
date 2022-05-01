@@ -1,0 +1,37 @@
+h2 {
+    margin-bottom: -1rem;
+    background: -webkit-linear-gradient(0.15turn, #3f87a6, #f69d3c, #f69d3c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h3 {
+    color: darkorange;
+}
+
+.bandeauSuaps {
+    margin-left: 15rem;
+}
+
+
+.intro {
+    text-indent: 3em;
+    padding: 2rem;
+}
+
+
+
+.blocktext {
+    margin-top: 5rem;
+    display: flex;
+    /*    width: calc(100% / 2);*/
+    border-bottom: 1px solid #ddd;
+    background: #e6f1f3;
+    box-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 0.15);
+}
+
+.blocktext a {
+    text-decoration: none;
+        color: orangered;
+
+}

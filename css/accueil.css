@@ -1,0 +1,62 @@
+.parallax {
+  /* The image used */
+  background-image: url("../img/avantIUT.jpg");
+
+  /* Set a specific height */
+  height: 25em;
+  width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position:bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+table td{
+    border: 0.1rem solid grey;
+}
+
+  
+  .arc {
+
+      font-size: 2rem;
+      color: royalblue;
+      text-align: center;
+      background-color: transparent;
+      border: none;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      
+  }
+
+
+
+#cone1 {
+  transform: rotate(0deg);
+
+}
+
+#cone2 {
+  transform: rotate(0deg);
+
+}
+
+#cone3 {
+  transform: rotate(0deg);
+
+}
+
+#cone4 {
+  transform: rotate(0deg);
+
+}
+
+
+
+
+h1{
+text-align: center;
+
+}
