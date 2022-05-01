@@ -1,0 +1,34 @@
+<h3>Semestre 4 PEC (Parcours Etudes Courtes)</h3>
+    <br>
+    <table>
+            <tr>
+                <td>UE 1 (225 h)</td><img src="../img/semestre4ue1.png" alt="UE 1 Semestre 4">
+                <td>UE 2 (225 h)</td><img src="../img/semestre4ue2.png" alt="UE 2 Semestre 4"> 
+                <td>UE 3</td>
+            </tr>
+                    <tr>
+                    <td>- Administration système et réseau</td><td>- Ateliers de création d’entreprise</td><td>- Stage professionnel</td></tr>
+                    <tr><td>- Programmation répartie</th><td>- Recherche opérationnelle et aide à la décision</td></tr>
+                    <tr><td>- Programmation web-client riche</th><td>- Expression-Communication</td></tr>
+                    <tr><td>- Conception et développement d’applications mobiles</th><td>- Travailler en anglais</td></tr>
+                    <tr><td>- Compléments d’informatique en vue d’une insertion immédiate</th></tr>
+                    <tr><td>- Projet tutoré</td></tr>
+    </table>
+    <br>
+    <h3>Semestre 4 PEL (Parcours Etudes Longues)</h3>
+    <br>
+    <table>
+            <tr>
+                <td>UE 1 (138 h)</td><img src="../img/semestre4bisue1.png" alt="UE 1 Semestre 4">
+                <td>UE 2 (106 h)</td><img src="../img/semestre4bisue2.png" alt="UE 2 Semestre 4"> 
+                <td>UE 3</td>
+            </tr>
+                    <tr>
+                    <td>- Web sémantique</td><td>- Maths pour l’ingénieur</td><td>- Stage professionnel</td></tr>
+                    <tr><td>- Image & Vidéo</th><td>- Recherche opérationnelle</td></tr>
+                    <tr><td>- Programmation web</th><td>- Expression-Communication</td></tr>
+                    <tr><td>- Systèmes embarqués</th><td>- Anglais</td></tr>
+                    <tr><td>- Cryptage/Compression</th></tr>
+                    <tr><td>- Projet tutoré</td></tr>
+    </table>
+    <br>

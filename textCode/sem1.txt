@@ -1,0 +1,19 @@
+<h3>Semestre 1</h3>
+    <br>
+    <table>
+        <tr>
+          <td>Unité d'enseignement 1 (UE1)</td><img src="../img/semestre1ue1.png" alt="UE 1 Semestre 1">
+          <td>UE2</td><img src="../img/semestre1ue2.png" alt="UE 2 Semestre 1"> 
+        </tr>
+        <tr>
+          <td>- Introduction aux systèmes informatiques </td>
+          <td>- Mathématiques</td>
+        </tr>
+        <tr><td>- Introduction à l’algorithmique et à la programmation</td><td>- Algèbre linéaire</td></tr>
+        <tr><td>- Structures de données et algorithmes fondamentaux</th><td>- Environnement économique</td></tr>
+        <tr><td>- Introduction aux bases de données</th><td>- Fonctionnement des organisations</td></tr>
+        <tr><td>- Conception de documents et d’interfaces numériques</th><td>- Expression - Communication</td></tr>
+        <tr><td>- Projet tutoré - Découverte</th><td>- Anglais et Informatique</td></tr>
+        <tr><td></td><td>- PPP - Connaître le monde professionnel</td></tr>
+    </table> 
+    <br>

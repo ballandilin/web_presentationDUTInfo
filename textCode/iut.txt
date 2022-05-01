@@ -1,0 +1,108 @@
+import turtle
+import time
+
+
+
+
+t = turtle.Turtle()
+screen=turtle.Screen()
+screen.setup(700,500)
+
+
+
+                
+# definition d'une fonction grace au mot cle "def"
+def iut(color, size, speed):
+	t.color(color)
+	t.speed(speed)
+	t.up()
+	t.backward(150)
+	t.down()
+                
+	# I
+	t.left(90)
+	t.forward(20 * size)
+	t.right(90)
+	t.forward(50 * size)
+	t.left(90)
+	t.forward(100 * size)
+	t.left(90)
+	t.forward(50 * size)
+	t.right(90)
+	t.forward(20 * size)
+	t.right(90)
+	t.forward(125 * size)
+	t.right(90)
+	t.forward(20 * size)
+	t.right(90)
+	t.forward(50 * size)
+	t.left(90)
+	t.forward(100 * size)
+	t.left(90)
+	t.forward(50 * size)
+	t.right(90)
+	t.forward(20 * size)
+	t.right(90)
+	t.forward(125 * size)
+
+
+	t.up()
+	#145 pour expace + 125 pour largeur lettre = 270
+	t.backward(270 * size)
+	t.down()
+
+	# U
+	t.right(90)
+	t.forward(140 * size)
+	t.left(90)
+	t.forward(25 * size)
+	t.left(90)
+	t.forward(120 * size)
+	t.right(90)
+	t.forward(75 * size)
+	t.right(90)
+	t.forward(120 * size)
+	t.left(90)
+	t.forward(25 * size)
+	t.left(90)
+	t.forward(140 * size)
+	t.left(90)
+	t.forward(125 * size)
+
+	t.up()
+	t.forward(70 * size)
+	t.down()
+
+	# T
+	t.left(90)
+	t.forward(120 * size)
+	t.left(90)
+	t.forward(50 * size)
+	t.right(90)
+	t.forward(20 * size)
+	t.right(90)
+	t.forward(120 * size)
+	t.right(90)
+	t.forward(20 * size)
+	t.right(90)
+	t.forward(50 * size)
+	t.left(90)
+	t.forward(120 * size)
+	t.right(90)
+	t.forward(20 * size)
+        
+
+
+                    
+def forme():
+    for i in range(50):
+        t.circle(i*3)
+        t.left(10)
+                    
+                    
+
+iut('blue', 1, 20)
+time.sleep(1.5)
+t.reset()
+t.speed(0)
+forme() 

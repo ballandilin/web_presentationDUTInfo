@@ -1,0 +1,50 @@
+import turtle
+from turtle import Screen
+#from mandelbrot import *
+
+class Mandelbrot:
+    def __init__(self,c,limit=50):
+        self.__limit = int(limit)
+        self.__colormap = ['black','white']
+        self.__cardinality = limit
+        z = 0
+        for i in range(limit):
+            z = z * z + c
+    
+    
+            if abs(z) > 2:
+                self.__cardinality = i
+                return
+    
+    
+    
+    def getColor(self):
+        if self.__cardinality == self.__limit:
+            return self.__colormap[0]
+        return self.__colormap[1]
+
+class Display:
+    def __init__(self, screen):
+        self.t = turtle.Turtle()
+        self.t.ht();self.t.turtlesize(1)
+        self.t.speed(0)
+        turtle.tracer(500,0)
+
+        for x in range(-150, 151):
+        # move to bottom without creating white line
+            self.t.up()
+            self.t.goto(x, -150)
+            self.t.down()
+    
+            for y in range(-150, 151):
+                self.t.color(Mandelbrot(turtleConvert(x,y)).getColor())
+                self.t.goto(x,y)
+
+
+
+def turtleConvert(x,y): #converts from turtle pixels to the complex plane
+    return complex((x/100)*4,(y/100)*4)
+
+screen = Screen()
+dummy = Display(screen)
+screen.mainloop()

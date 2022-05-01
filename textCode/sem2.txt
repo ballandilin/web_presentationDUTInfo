@@ -1,0 +1,17 @@
+<h3>Semestre 2</h3>
+    <br>
+    <table>
+        <tr>
+            <td>UE 1 (255 h)</td><img src="../img/semestre2ue1.png" alt="UE 1 Semestre 2">
+            <td>UE 2 (245 h)</td><img src="../img/semestre2ue2.png" alt="UE 2 Semestre 2">
+        </tr>
+                <tr>
+                <td>- Architecture et programmation</td><td>- Graphes et langages</td></tr>
+                <tr><td>- Architecture des réseaux</th><td>- Analyse et méthodes numériques</td></tr>
+                <tr><td>- Bases de la programmation orientée objet</th><td>- Environnement comptable, financier, juridique et social</td></tr>
+                <tr><td>- Bases de la conception orientée objet</th><td>- Gestion de projet informatique</td></tr>
+                <tr><td>- Introduction aux interfaces homme-machine</th><td>- Expression - Communication</td></tr>
+                <tr><td>- Programmation et administration des bases de données</th><td>- Anglais</td></tr>
+                <tr><td>- Projet tutoré - description et planification de projet</td><td>- PPP- Identifier ses compétences</td></tr> 
+    </table>
+    <br>

@@ -1,0 +1,18 @@
+<h3>Semestre 3</h3>
+    <br>
+    <table>
+            <tr>
+                <td>UE 1 (225 h)</td><img src="../img/semestre3ue1.png" alt="UE 1 Semestre 3">
+                <td>UE 2 (225 h)</td><img src="../img/semestre3ue2.png" alt="UE 2 Semestre 3"> 
+                <td>UE 3 (80 h)</td><img src="../img/semestre3ue3.png" alt="UE 3 Semestre 3">
+            </tr>
+                    <tr>
+                    <td>- Principes des systèmes d’exploitation</td><td>- Probabilités et statistiques</td><td>- Méthodologie de la production d’applications</td></tr>
+                    <tr><td>- Services réseaux</th><td>- Modélisations mathématiques</td><td>- Projet tutoré - Mise en situation professionnelle</td></tr>
+                    <tr><td>- Algorithmique avancée</th><td>- Droit des technologies de l’information et de la communication</td><td>- PPP- Préciser son projet</td></tr>
+                    <tr><td>- Programmation web coté serveur</th><td>- Gestion des systèmes d’information</td></tr>
+                    <tr><td>- Conception et programmation objet avancées</th><td>- Expression - Communication</td></tr>
+                    <tr><td>- Bases de données avancées </th><td>- Collaborer en anglais</td></tr>
+                    <tr><td></td><td>- PPP- Identifier ses compétences</td></tr> 
+    </table>
+    <br>
