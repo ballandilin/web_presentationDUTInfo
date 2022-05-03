@@ -1,6 +1,6 @@
 .parallax {
   /* The image used */
-  background-image: url("./img/avantIUT.jpg");
+  background-image: url("../img/avantIUT.jpg");
 
   /* Set a specific height */
   height: 25em;
